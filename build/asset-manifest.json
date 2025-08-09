@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/MyPersonalSite/static/css/main.597a0755.css",
+    "main.js": "/MyPersonalSite/static/js/main.234ea3ee.js",
+    "static/media/0ZERXZ.png": "/MyPersonalSite/static/media/0ZERXZ.8ea7ae90394c3a944335.png",
+    "index.html": "/MyPersonalSite/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.597a0755.css",
+    "static/js/main.234ea3ee.js"
+  ]
+}

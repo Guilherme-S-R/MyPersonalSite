@@ -1,164 +1,90 @@
-const logotext = "JOHN";
+import Logo from "../../react-portfolio/src/assets/images/0ZERXZ.png"
+const logotext = "GUILHERME R.";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "0ZERXZ",
+    description: "I’m Guilherme R. Cybersecurity Student _ Full stack devloper, currently working in Brazil.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Guilherme R.",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I Love Code,",
+        second: "Create,",
+        third: "Explore.",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I strive to help others see the world as a better place.",
+    your_img_url: Logo,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About My Self",
+    aboutme: "Ever since I was a child, I've been fascinated by how things work. I believe curiosity is one of the most essential qualities for human evolution. I found my place in the field of technology, where I am always seeking to deepen my knowledge in various subjects and form new connections.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Ethical Offensive Security",
+        where: "Freelancer",
+        date: "2025 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Operations Coordinator",
+        where: "Bacio di Latte",
+        date: "2023 - 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Brazilian Army",
+        where: "Support Technician & Security",
+        date: "2021 - 2022",
+    },
+    {
+        jobtitle: "Graphic Designer",
+        where: "Freelancer",
+        date: "2019 - Present",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "JavaScript",
+        value: 58,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "HTML",
+        value: 71,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "CSS",
+        value: 70,
     },
     {
         name: "React",
-        value: 60,
+        value: 40,
     },
     {
-        name: "Jquery",
-        value: 85,
-    },
-];
-
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
-
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        name: "Python",
+        value: 30,
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "guilhermeverfocused@gmail.com",
+    YOUR_FONE: "+55 (61) 99810-8308",
+    description: "With over six years of experience as a graphic designer, I have decided to transition into the field of cybersecurity. While my passion for design remains, I am now seeking new horizons and opportunities for my career. I still keep up with the latest design trends whenever possible, as I never want to forget my creative roots.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_sh7dzcs",
+    YOUR_TEMPLATE_ID: "template_ogl0msi",
+    YOUR_USER_ID: "d2mKOHRSQ9Ham6qYu",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/Guilherme-S-R",
+    behance: "https://www.behance.net/Guilherme-S-R",
+    linkedin: "https://www.linkedin.com/in/guilherme-s-ramos/",
 };
 export {
     meta,
     dataabout,
-    dataportfolio,
     worktimeline,
     skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,
