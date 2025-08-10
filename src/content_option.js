@@ -1,4 +1,5 @@
 import Logo from "../../react-portfolio/src/assets/images/0ZERXZ.png"
+import Logo2 from "./assets/images/2148397845.jpg"
 const logotext = "GUILHERME R.";
 const meta = {
     title: "0ZERXZ",
@@ -64,6 +65,17 @@ const skills = [{
     },
 ];
 
+const dataportfolio = [{
+        img: Logo2,
+        description: "My Behance.",
+        link: "https://www.behance.net/Guilherme-S-R",
+    },
+    {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "Plans.",
+        link: "#",
+    },
+];
 const contactConfig = {
     YOUR_EMAIL: "guilhermeverfocused@gmail.com",
     YOUR_FONE: "+55 (61) 99810-8308",
@@ -83,6 +95,7 @@ const socialprofils = {
 export {
     meta,
     dataabout,
+    dataportfolio,
     worktimeline,
     skills,
     introdata,
